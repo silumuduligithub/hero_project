@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    width:100vw;
+    background-color: blue;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#hero-heading{
+    font-size: 50px;
+    padding-top: 100px;
+    text-shadow: 2px 3px 20px black;
+}
+#hero-text{
+    margin-bottom: 30px;
+}
+#hero-button{
+    background-color: #ff6600;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+/* this are called pseudo element selecters when ever you find a single column this means we are talking about sheudo element selecters*/
+#hero-button:hover{
+    background-color: #ff4500;
+    color: blueviolet;
+}
